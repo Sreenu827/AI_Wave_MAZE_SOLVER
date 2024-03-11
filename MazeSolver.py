@@ -1,5 +1,5 @@
 class MazeSolver:
-    def _init_(self, maze):
+    def __init__(self, maze):
         self.maze = maze
         self.visited = [[False for _ in range(len(maze[0]))] for _ in range(len(maze))]
         self.rows = len(maze)
